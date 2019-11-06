@@ -1,0 +1,105 @@
+/*
+font-family: 'Merienda', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+*/
+a:link{
+	text-decoration:none;
+}
+nav{
+	background-color: #8b008b;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+#navbarNavDropdown{
+	padding-left: 150px;
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+.tarja {
+	background-color: #8b008b;
+	width: 1350px;
+	margin-bottom: 0px;
+}
+
+.tarja h1 {
+	padding: 15px;
+}
+
+#About{
+	padding: 50px 30px 50px 20px;
+	width: 1000px;
+}
+footer p {
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	height: 50px;
+}
+
+html {
+	font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+	html {
+	  font-size: 1.2rem;
+	}
+  }
+  
+  @include media-breakpoint-up(md) {
+	html {
+	  font-size: 1.4rem;
+	}
+  }
+  
+  @include media-breakpoint-up(lg) {
+	html {
+	  font-size: 1.6rem;
+	}
+  }
+  
+  #midias{
+	font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  
+#contato {
+	width: 700px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	line-height: 1.5em;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	padding: 50px;
+	border: 1px solid #00a8cc;
+	border-radius: 10px;
+	text-shadow: 0px 0px 5px #fff;
+}
+
+#contato input, textarea {
+	border: 1px solid #00a8cc;
+	border-radius: 10px;
+	margin: 3px;
+	text-shadow: 0px 0px 5px #fff;
+}
+
+#blocos_Eventos {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+#entrar {
+	background-color: #00cc39;
+	width: 1363px;
+}

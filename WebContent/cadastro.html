@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta author="Misael Nascimento">
+    <title>Insxreva-se</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link href="css/cadastroSheet.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+    <header class="container-fluid text-center text-white border">
+        <h1 class="display-1">Formulário de Inscrição</h1>
+    </header>
+
+    <section id="formulario" class="container bg-light text-dark border border-info">
+        <form>
+            <div class="row">
+                <div class=" col-8 form-group">
+                    <label for="inputNome">Nome</label>
+                    <input class="form-control" id="inputNome" type="text" placeholder="Digite o seu nome" />
+                </div>
+
+                <div id="sexo">
+                    <label>Sexo</label>
+                    <div class="col-4 form-group form-check">
+                        <input class="form-check-input" type="radio" name="sexo" id="masculino" value="Masculino"
+                            checked>
+                        <label class="form-check-label" for="masculino">
+                            Masculino
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sexo" id="feminino" value="Feminino">
+                        <label class="form-check-label" for="feminino">
+                            Feminino
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-4 form-group">
+                    <label for="inputCpf">CPF</label>
+                    <input class="form-control" id="inputCpf" type="text" placeholder="000.000.000-00" />
+                </div>
+
+                <div class="col-4 form-group">
+                    <label for="inputRg">RG</label>
+                    <input class="form-control" id="inputRg" type="text"
+                        placeholder="Informe apenas os números do Seu Rg" />
+                </div>
+
+                <div class="coml-4 form-group">
+                    <label for="inputNascimento">Data de Nascimento</label>
+                    <input class="form-control" id="inputNascimento" type="date" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Endereço</label>
+                <div class="row">
+                    <input class="col-2 form-control" id="inputPais" type="text" placeholder="CEP" />
+                    <input class="col-5 form-control" id="inputLogradouro" type="text" placeholder="Logradouro" />
+                    <input class="col-1 form-control" id="inputNumero" type="text" placeholder="Nº" />
+                    <input class="col-4 form-control" id="inputBairro" type="text" placeholder="Bairro" />
+                </div>
+
+                <div class="row">
+                    <input class="col-6 form-control" id="inputCidade" type="text" placeholder="Cidade" />
+                    <input class="col-3 form-control" id="inputEstado" type="text" placeholder="Estado" />
+                    <input class="col-3 form-control" id="inputPais" type="text" placeholder="Pais" />
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <div class="col-6 form-group">
+                    <label for="exampleInputEmail1">Email </label>
+                    <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+                        placeholder="Digite o seu  email">
+                </div>
+
+                <div class="col-6 form-group">
+                    <label for="exampleInputEmail1">Confirme seu Email </label>
+                    <input type="email" class="form-control" id="Email1Confirm" aria-describedby="emailHelpConfirm"
+                        placeholder="Confirme o seu  email">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success" onclick="cadastrar()">
+                Confirmar Insrição
+            </button>
+
+            <div id="resultado">
+
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-copyright text-center py-3 text-light bg-dark">&copy; 2019 Copyright
+            <a href="https://linkedin.com/in/misael-nascimento-57681659 "> Misael Nascimento
+            </a>
+        </div>
+
+        <script src="js/cadastrar.js"></script>
+        <div id="">
+            <script src="node_modules/jquery/dist/jquery.js"></script>
+            <script src="node_modules/popper.js/dist/popper.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        </div>
+    </footer>
+</body>
+
+</html>

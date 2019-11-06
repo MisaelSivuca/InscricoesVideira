@@ -1,0 +1,16 @@
+body{
+    background-color: #FBFBEF;
+  }
+    header {
+      margin-bottom:      20px;
+      margin-top:         5px;
+      padding-top:        50px;
+    }
+      header {
+        background-color: #8b008b;
+      }
+      #novoEvento {
+          width: 700px;
+      }
+  
+  

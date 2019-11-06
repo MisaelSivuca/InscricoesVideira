@@ -1,0 +1,18 @@
+  body{
+  background-color: #FBFBEF;
+}
+  header {
+    margin-bottom:      20px;
+    margin-top:         5px;
+    padding-top:        50px;
+  }
+    #formulario {
+      border-radius: 20px;
+      width: 800px;
+      padding-bottom:15px;
+      margin-bottom: 10px;
+    }
+    header {
+      background-color: #8b008b;
+    }
+

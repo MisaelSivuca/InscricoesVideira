@@ -1,0 +1,66 @@
+
+SOBRE NÓS
+
+A Visão
+“Nosso encargo é edificar uma igreja de vencedores, onde cada membro é um ministro e cada casa uma expressão da igreja, conquistando, assim, a geração para Cristo, através de células que se multiplicam uma vez ao ano”.
+
+A Missão
+Nossa Missão é fazer de "Cada irmão 1 discípulo e cada discípulo 1 discipulador".
+
+O que cremos
+1. Nós cremos na inspiração verbal e plena de todo o cânon aceito das escrituras como originalmente dado. As Escrituras são infalíveis, inerrantes e autoridade final para todas as questões de fé e conduta (II Tm. 3:16, I Cor. 2:13) 
+2. Nós cremos no Deus eterno que a si mesmo se revelou como único Deus existente em três pessoas: Pai, Filho e Espírito Santo, distinguíveis, mas indivisíveis (Mt. 28:19, II Cor 13:14) 
+3. Nós cremos na criação, teste e queda do homem como relatado em Gênesis; sua total depravação espiritual e incapacidade de alcançar a justiça divina (Rm. 5:12 e 18). 
+4. Nós cremos no Senhor Jesus Cristo, o Salvador de todo homem, concebido do Espírito Santo, nascido da virgem Maria, verdadeiro Deus e verdadeiro homem (Lucas 1:26-35, João 1:14-18, Isaias 7:14 e 9:6). 
+5. Nós cremos que Cristo morreu por nossos pecados, foi sepultado e ressuscitou ao terceiro dia, e apareceu pessoalmente a seus discípulos (ICor. 15:1-4, Rm. 4:25) 
+6. Nós cremos na ascensão física do Senhor Jesus aos céus, sua exaltação e em sua segunda vinda pessoal, literal e em corpo para a sua Igreja (João 14:2,3 e I Ts. 4:13-18). 
+7. Nós cremos na salvação dos pecadores pela graça de Deus, através do arrependimento e da fé na perfeita e suficiente obra da cruz do Calvário, pela qual nós obtemos a remissão dos pecados (Ef. 2:8-9, Hb. 9:12 e 22 e Rm 5:11) 
+8. Nós cremos na necessidade do batismo nas águas por imersão no nome do Deus triúno: Pai, Filho e Espírito Santo para cumprir o mandamento do Senhor Jesus Cristo (Mt. 28:19, At. 2:34-36, 19:1-6) 
+9. Nós cremos no batismo no Espírito Santo como uma experiência real e subseqüente à salvação, com a evidência bíblica do falar em outras línguas como o Espírito nos concede (At. 2:1-4, 8:14-17, 10:44-46, Gl. 3:14-15) 
+10. Nós cremos na operação dos dons do Espírito Santo como enumerados em I Coríntios 12-14 como manifestado na igreja primitiva. 
+11. Nós cremos em uma vida cheia do Espírito, uma vida de separação do mundo em perfeita santidade no temor de Deus, como expressão da verdadeira fé cristã (Ef. 5:18, II Cor. 6:14, 7:1)
+12. Nós cremos na cura do corpo pelo poder de Deus, ou cura divina em seus variados aspectos como praticada na igreja primitiva (At. 4:30, Rm 8:11, I Cor. 12:9, Tg. 5:14) 
+13. Nós cremos na mesa do Senhor para os crentes, comumente chamada de santa ceia ou comunhão do Senhor (I Cor. 11:28-32, Mt. 26:26-28) 
+14. Nós cremos na realidade e personalidade do Diabo e no julgamento eterno do lago de fogo preparado para o Diabo e seus anjos (Mt. 25:41, Ap. 20:14-15) 
+15. Nós cremos na vida eterna dos crentes e na punição eterna para os incrédulos (Jo. 5:24, 3:16, Mc. 9:43-48, II Ts.1:9, Ap. 20:10-15) 
+16. Nós cremos que há uma igreja universal, composta de crentes genuínos, mas que esta igreja universal é composta de muitas igrejas locais. Estas igrejas estão debaixo da liderança do Senhor Jesus Cristo exercendo governo autônomo debaixo dele, administrando todas as atividades locais bem como a propagação do evangelho. (At. 15:22, com Mt. 16:18 e 18:15-20)
+
+
+
+.MenuPrincipal{
+	list-style:none; 
+	border:1px solid #c0c0c0; 
+	float:left; 
+	wid
+}
+.MenuPrincipal li{
+	position:relative; 
+	float:left; 
+	border-right:1px solid #c0c0c0; 
+}
+.MenuPrincipal li a{
+	color:#333; 
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:block;}
+}
+.MenuPrincipal li a:hover{
+	background:#333; 
+	color:#fff; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff; 
+}
+.MenuPrincipal li ul{
+	position:absolute; 
+	top:25px; 
+	left:0;
+	background-color:#fff; 
+	display:none;
+} 
+.MenuPrincipal li:hover ul, .MenuPrincipal li.over ul{display:block;}
+.MenuPrincipal li ul li{
+	border:1px solid #c0c0c0; 
+	display:block; 
+	width:150px;
+}

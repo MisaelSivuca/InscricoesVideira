@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Igreja Videira em Células-Recife">
+      <meta name="author" content="Misael Nascimento">
+      <title>Cadastro de Eventos</title>
+      <link rel="shortcut icon" type="image/x-icon" href="imagens/favcon.ico">
+      <!-- Minha folha de Estilos -->
+      <link rel="stylesheet" type="text/css" href="css/estilos.css">
+      <!-- Fontes Google -->
+      <link href="https://fonts.googleapis.com/css?family=Caveat|Merienda|Montserrat+Alternates" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+      <link href="css/NovoEventoSheet.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+      <header class="container-fluid text-center text-white border">
+            <h1 class="display-1">Cadastro de Novos Eventos</h1>
+      </header>
+
+      <section id="novoEvento" class="container bg-light text-dark border border-info">
+            <table class="table">
+                  <thead class="thead-dark">
+                  <tr>
+                        <th></th>
+                        <th>Nome </th>
+                        <th>Descrição</th>
+                        <th>Data</th>
+                        <th>valor</th>
+                        <th>Capacidade</th>
+                  </tr>
+            </thead>
+            </table>
+            <br>
+            <hr>
+            <form></form>
+            <label>Nome:</label>
+            <input class="form-control" id="nome" type="text" /><br>
+            <label>Descrição:</label>
+            <textarea class="form-control" id="descricao" rows="3"></textarea>
+            <label>Data:</label>
+            <input class="form-control" id="data" type="Date" /><br>
+            <label>Valor:</label>
+            <input class="form-control" id="valor" type="text" /><br>
+            <label>Capacidade:</label>
+            <input class="form-control" id="capacidade" type="text" /><br>
+
+            <button class="btn btn-primary btn-sm" onclick="adicionar()">Adicionar Novo Evento</button>
+            <span id="span">Um novo evento será adicionado </span>
+            </form>
+      </section>
+
+
+      <!-- Footer -->
+      <footer>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 text-light bg-dark">&copy; 2019 Copyright
+                  <a href="https://linkedin.com/in/misael-nascimento-57681659 "> Misael Nascimento
+                  </a>
+            </div>
+            <!-- Copyright -->
+            <div id="">
+                  <script src="js/NovoEvento.js"></script>
+                  <script src="node_modules/jquery/dist/jquery.js"></script>
+                  <script src="node_modules/popper.js/dist/popper.js"></script>
+                  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+            </div>
+      </footer>
+      <!-- Footer -->
+      <div>
+            <a href="https://api.whatsapp.com/send?phone=5581971115474" target="_blank">
+                  <img class="whatsapp" src="https://images.tcdn.com.br/static_inst/integracao/imagens/whatsapp.png" />
+            </a>
+      </div>
+
+
+
+</body>
+
+</html>
